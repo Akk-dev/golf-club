@@ -15,3 +15,15 @@ Simple golf club data management project using Python and MySQL
 
 ## **Topic At Hand**
   *In this project, I have tried to emulate what a traditional Golf Course Management system looks and feels like. I imagined a premium, hip Golf Course in “THE WOODS” which has already established itself at the national scale.*
+
+
+## **External Modules**
+
+ *In this project, we have used the following external
+modules:*
+
+
+*1. datetime*
+ 
+ *2. mysql.connector*
+ 
