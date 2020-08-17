@@ -1,0 +1,44 @@
+# Table Courses
+
+create table Courses(Tee varchar(9),Yardage integer(7),PAR integer(5),Course_Rating float(7), Slope_Rating integer(10));
+insert into Courses values("Blue",7237,72,75.3,138);
+insert into Courses values("White",6803,72,73.7,133);
+insert into Courses values("Yellow",6065,72,69.4,124);
+insert into Courses values("Red",5736,72,74.2,131);
+
+
+# Table Names
+
+create table Names(Name varchar(30),Phone varchar(11),Join_Date date,Member_ID varchar(6),sex varchar(2));
+
+
+# Table Packages
+
+create table Packages(Package_Name varchar (7), Duration varchar(10), price varchar(7));
+insert into Packages values("Bronze", "6 months", "$650");
+insert into Packages values("", "1 year", "$900");
+insert into Packages values("", "2 year", "$1500");
+insert into Packages values("", "", "");
+insert into Packages values("Silver", "6 months", "$1000");
+insert into Packages values("", "1 year", "$1700");
+insert into Packages values("", "2 year", "$3000");
+insert into Packages values("", "", "");
+insert into Packages values("Gold", "6 months", "$1500");
+insert into Packages values("", "1 year", "$2500");
+insert into Packages values("", "2 year", "$4750");
+
+
+
+Table Memberships
+create table Memberships(Member_Id varchar(6), Name varchar(30), Package varchar(7), 
+duration varchar(10), Start_Date date, Upcoming_Event_Id varchar(5));
+insert into Memberships values ("000001","Akshat Singhania","Gold", "1 year","2020-01-17", "A002");
+
+
+#Table Events
+
+create table Events(Event varchar(40), Date varchar(20),prize varchar(9), Exclusiv varchar(15),
+status varchar(12));
+insert into Events values("Avantha Masters Cup", "11th-17th March 2020","$1800000",
+"Open for all", "Booked");
+insert into Events values("Annual Championship", "28th-30th May 2020","$38000", "Members only", "Vacant");
